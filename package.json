@@ -1,0 +1,19 @@
+{
+  "name": "astro-sync-deps-cache-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "check": "astro check",
+    "sync": "astro sync"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.10",
+    "@astrojs/react": "7.1.0",
+    "astro": "7.4.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "typescript": "6.0.3"
+  }
+}
