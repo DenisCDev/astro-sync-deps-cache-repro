@@ -1,5 +1,7 @@
 # `astro sync` overwrites the running dev server's optimized deps
 
+**English** · [Português](README.pt-BR.md)
+
 Minimal reproduction: while `astro dev` is running, `astro sync`, `astro check` and `astro build` rewrite `node_modules/.vite/deps` with dependencies optimized for production.
 
 ## Steps
